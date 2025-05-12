@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Car Crash Game</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Fredoka:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="game-container">
+    <div id="game-title">
+      <h1>@sundaymarcellino</h1>
+    </div>
+
+    <div id="info-bar">
+      <span>Score: <span id="score">0</span></span>
+      <span>High Score: <span id="highscore">0</span></span>
+      <span>Level: <span id="level">1</span></span>
+    </div>
+
+    <div id="game-board">
+      <div id="player-car"></div>
+      <div id="obstacles-container"></div>
+    </div>
+
+    <div id="controls">
+      <button id="play-btn">Play</button>
+      <button id="restart-btn" style="display: none;">Restart</button>
+    </div>
+
+    <div id="countdown" style="display: none;">3</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
